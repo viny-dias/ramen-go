@@ -4,12 +4,14 @@
   "description": "Repositório criado para o teste prático de Fullstack Engineer na Red Ventures.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "vercel": "^34.2.3"
   }
 }
